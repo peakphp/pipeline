@@ -5,8 +5,8 @@
   "license": "MIT",
   "homepage": "https://peakframework.com",
   "support": {
-    "issues": "https://github.com/peakphp/framework/issues",
-    "source": "https://github.com/peakphp/framework"
+    "issues": "https://github.com/peakphp/pipeline/issues",
+    "source": "https://github.com/peakphp/pipeline"
   },
   "authors": [
     {
@@ -18,14 +18,13 @@
     "php": ">=7.2",
     "psr/container": "^1.0"
   },
+  "require-dev": {
+    "phpunit/phpunit": "^8.2",
+    "phpstan/phpstan": "^0.11"
+  },
   "autoload": {
     "psr-4": {
       "Peak\\Pipeline\\": ""
-    }
-  },
-  "extra": {
-    "branch-alias": {
-      "dev-master": "4.0-dev"
     }
   },
   "minimum-stability": "dev",
